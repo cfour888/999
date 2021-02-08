@@ -1,0 +1,79 @@
+{
+  "Account": {
+    "Username": "Dav888",
+    "Password": "qwerty12345",
+    "Currency": "Doge",
+    "2FA": "OFF",
+    "Auto Proxy": "OFF",
+    "API Access": "OFF"
+  },
+  "Target Profit": "20",
+  "Target Win": "51000",
+  "Lose Target": "0",
+  "Interval": "0",
+  "Betset": [
+    {
+      "Name Bet Set": "00 - @BEDUCODE SETTING",
+      "Base Bet": "0.00010000",
+      "Stop Max Bet": "OFF",
+      "Max Bet": "OFF",
+      "Chance": "5",
+      "Random Chance": {
+        "Toggle": "ON",
+        "Min": "5",
+        "Max": "15"
+      },
+      "Bet": {
+        "Bet": "Low",
+        "Hi / Low": {
+          "Toggle": "ON",
+          "If Lose": "1",
+          "If Win": "3"
+        }
+      },
+      "Mode1": {
+        "Toggle": "OFF",
+        "Prebet": "0.00055500",
+        "Start Strike If Win": "1",
+        "Limit Strike If Win": "1",
+        "Start Multi": "11",
+        "Limit Multi": "0.5"
+      },
+      "Mode2": {
+        "Toggle": "ON",
+        "Prebet": "0.00001111",
+        "Preroll": "20",
+        "Multipler": "1.1"
+      },
+      "Mode3": {
+        "Toggle": "OFF",
+        "Prebet": "0.00005000",
+        "Preroll": "7",
+        "Multipler": "1.08",
+        "Max LS Strike": "80"
+      },
+      "Fibonacci1": {
+        "Toggle": "OFF",
+        "Prebet": "0.00011100",
+        "Preroll": "15",
+        "Max LS Strike": "80"
+      },
+      "If Win": "3",
+      "If Lose": "2",
+      "Reset If Win": "3",
+      "Reset If Profit": "0.00111100",
+      "Interval": "0"
+    }
+  ],
+  "Proxy Manual": {
+    "Toggle": "ON",
+    "Ip": "127.0.0.1",
+    "Port": "1983"
+  },
+  "Auto Wd": {
+    "Toggle": "OFF",
+    "If Balance": "0",
+    "Wallet Address": "XXXXXXX",
+    "Amount": "0"
+  }
+}
